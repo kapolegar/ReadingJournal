@@ -47,7 +47,6 @@ git clone https://github.com/kapolegar/ReadingJournal.git
 
 ```
 npm install
-npm install react-router-dom
 ```
 
 ## Execute a aplicação:
