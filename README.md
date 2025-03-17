@@ -43,12 +43,6 @@ Clone o repositório:
 git clone https://github.com/kapolegar/ReadingJournal.git
 ```
 
-## Acesse a pasta do projeto:
-
-```
-cd ReadingJournal
-```
-
 ## Instale as dependências:
 
 ```
