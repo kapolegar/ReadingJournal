@@ -10,6 +10,30 @@ Funcionalidades
 
 ❌ Excluir livros da lista.
 
+# Componentes
+
+Os componentes estão no diretório ./src/components e possuem as seguintes funcionalidades:
+
+### Home
+
+Apresenta a página inicial do sistema, com uma introdução ao Reading Journal.
+
+### About
+
+Exibe informações sobre o propósito do sistema e suas funcionalidades.
+
+### NavBar
+
+Exibe a barra de navegação utilizando Link do React Router para facilitar a troca de páginas.
+
+### BookList
+
+Lista os livros cadastrados e permite excluir livros da lista.
+
+### BookForm
+
+Permite adicionar um novo livro com título, autor, gênero e data de cadastro.
+
 
 # Como Executar o Projeto
 
