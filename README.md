@@ -40,7 +40,7 @@ Permite adicionar um novo livro com título, autor, gênero e data de cadastro.
 Clone o repositório:
 
 ```
-git clone https://github.com/seu-usuario/ReadingJournal.git
+git clone https://github.com/kapolegar/ReadingJournal.git
 ```
 
 ## Acesse a pasta do projeto:
