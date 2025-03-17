@@ -28,13 +28,14 @@ npm install react-router-dom
 # Execute a aplicação:
 
 npm start
-Após execução do projeto, este é o resultado esperado no navegador:
-
-
 
 # Acesse no navegador:
 
 http://localhost:3000
+
+Após execução do projeto, este é o resultado esperado no navegador:
+
+![image](https://github.com/user-attachments/assets/16c6990a-d0ea-424c-a761-94d256c203e2)
 
 # Uso
 
