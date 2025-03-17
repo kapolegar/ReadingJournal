@@ -15,19 +15,27 @@ Funcionalidades
 
 Clone o repositório:
 
+```
 git clone https://github.com/seu-usuario/ReadingJournal.git
+```
 
 ## Acesse a pasta do projeto:
 
+```
 cd ReadingJournal
+```
 
 ## Instale as dependências:
 
+```
 npm install react-router-dom
+```
 
 ## Execute a aplicação:
 
+```
 npm start
+```
 
 ## Acesse no navegador:
 
