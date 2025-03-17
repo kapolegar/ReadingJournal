@@ -70,4 +70,4 @@ Navegue até a página Cadastrar para adicionar um novo livro.
 
 Acesse a Lista de Livros para visualizar os livros adicionados.
 
-Utilize o botão "Excluir" para remover um livro da lista.
+Utilize o botão "Excluir" dentro da Lista de Livros para remover um livro da lista.
