@@ -1,96 +1,72 @@
-Aqui está o `README.md` atualizado com as novas informações sobre o sistema e a execução dos testes:  
+# Descrição
 
----
+O Reading Journal é uma aplicação simples desenvolvida em React para gerenciar sua lista de leituras. Com ele, é possível cadastrar livros, visualizar a lista de livros adicionados e excluir livros que não deseja mais manter no histórico.
 
-# 📖 Reading Journal  
+Funcionalidades
 
-O **Reading Journal** é uma aplicação web desenvolvida em **React** para ajudar a gerenciar sua lista de leituras. Com ele, é possível cadastrar livros, visualizar a lista de leituras, acompanhar registros e remover livros da lista.  
+📖 Adicionar livros com título, autor, gênero e data de cadastro.
 
-## 🚀 Funcionalidades  
+📚 Listar os livros cadastrados.
 
-✅ **Adicionar livros** com título, autor, gênero e data de leitura.  
-📚 **Listar os livros cadastrados** e visualizar detalhes.  
-🗑️ **Excluir livros** da lista.  
-🛠️ **Testes automatizados** para garantir a qualidade da aplicação.  
+❌ Excluir livros da lista.
 
----
+# Componentes
 
-## 📂 Estrutura do Projeto  
+Os componentes estão no diretório ./src/components e possuem as seguintes funcionalidades:
 
-Os componentes estão organizados no diretório `./src/components` e possuem as seguintes funcionalidades:  
+### Home
 
-### 🏠 Home  
-Apresenta a página inicial do sistema, com uma introdução ao **Reading Journal**.  
+Apresenta a página inicial do sistema, com uma introdução ao Reading Journal.
 
-### ℹ️ About  
-Exibe informações sobre o propósito do sistema e suas funcionalidades.  
+### About
 
-### 🔗 NavBar  
-Barra de navegação utilizando **React Router**, permitindo alternar entre as páginas.  
+Exibe informações sobre o propósito do sistema e suas funcionalidades.
 
-### 📚 BookList  
-Lista os livros cadastrados e permite a exclusão de livros da lista.  
+### NavBar
 
-### 📝 BookForm  
-Permite adicionar um novo livro com título, autor, gênero e data de leitura.  
+Exibe a barra de navegação utilizando Link do React Router para facilitar a troca de páginas.
 
----
+### BookList
 
-## ▶️ Como Executar o Projeto  
+Lista os livros cadastrados e permite excluir livros da lista.
 
-### 1️⃣ Clone o repositório  
-```sh
+### BookForm
+
+Permite adicionar um novo livro com título, autor, gênero e data de cadastro.
+
+
+# Como Executar o Projeto
+
+Clone o repositório:
+
+```
 git clone https://github.com/kapolegar/ReadingJournal.git
-cd ReadingJournal
-```  
+```
 
-### 2️⃣ Instale as dependências  
-```sh
+## Instale as dependências:
+
+```
 npm install
-```  
+```
 
-### 3️⃣ Execute a aplicação  
-```sh
+## Execute a aplicação:
+
+```
 npm start
-```  
+```
 
-### 4️⃣ Acesse no navegador  
-```sh
+## Acesse no navegador:
+
 http://localhost:3000
-```  
 
----
+### Após execução do projeto, este é o resultado esperado no navegador:
 
-## ✅ Como Executar os Testes  
+![image](https://github.com/user-attachments/assets/16c6990a-d0ea-424c-a761-94d256c203e2)
 
-O projeto contém **testes automatizados** usando **Jest** e **React Testing Library**. Para rodá-los, utilize o comando:  
+## Uso
 
-```sh
-npm test
-```  
+Navegue até a página Cadastrar para adicionar um novo livro.
 
-### 🔎 Testes incluídos  
-- **BookList.test.js** → Verifica se a lista de livros é renderizada corretamente.  
-- **BookForm.test.js** → Testa se o formulário de cadastro de livros envia os dados corretamente.  
+Acesse a Lista de Livros para visualizar os livros adicionados.
 
----
-
-## 🖼️ Resultado Esperado  
-
-Após rodar o projeto, o sistema terá a seguinte aparência no navegador:  
-
-![image](https://github.com/user-attachments/assets/16c6990a-d0ea-424c-a761-94d256c203e2)  
-
----
-
-## 💡 Como Usar  
-
-1️⃣ Navegue até a página **Cadastrar** para adicionar um novo livro.  
-2️⃣ Acesse a **Lista de Livros** para visualizar os livros cadastrados.  
-3️⃣ Utilize o botão **"Excluir"** para remover um livro da lista.  
-
-🔗 **Contribua com o projeto!** Qualquer feedback ou melhoria é bem-vindo. 🚀📚  
-
----
-
-Se precisar de mais ajustes, é só avisar! 😊
+Utilize o botão "Excluir" dentro da Lista de Livros para remover um livro da lista.
