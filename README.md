@@ -58,16 +58,6 @@ http://localhost:3000
 
 ---
 
-## ✅ Como Executar os Testes  
-
-O projeto contém **testes automatizados** usando **Jest** e **React Testing Library**. Para rodá-los, utilize o comando:  
-
-```sh
-npm test
-```
-
----
-
 ## 🖼️ Resultado Esperado  
 
 Após rodar o projeto, o sistema terá a seguinte aparência no navegador:  
@@ -85,4 +75,15 @@ Após rodar o projeto, o sistema terá a seguinte aparência no navegador:
 
 ### 🔎 Testes incluídos  
 - **BookList.test.js** → Verifica se a lista de livros é renderizada corretamente.  
-- **BookForm.test.js** → Testa se o formulário de cadastro de livros envia os dados corretamente.  
+- **BookForm.test.js** → Testa se o formulário de cadastro de livros envia os dados corretamente.
+
+---
+
+## ✅ Como Executar os Testes  
+
+O projeto contém **testes automatizados** usando **Jest** e **React Testing Library**. Para rodá-los, utilize o comando:  
+
+```sh
+npm test
+```
+
