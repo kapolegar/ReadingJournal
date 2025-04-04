@@ -1,4 +1,8 @@
----
+# Descrição
+
+O Reading Journal é uma aplicação simples desenvolvida em React para gerenciar sua lista de leituras. Com ele, é possível cadastrar livros, visualizar a lista de livros adicionados e excluir livros que não deseja mais manter no histórico.
+
+Funcionalidades
 
 📖 Adicionar livros com título, autor, gênero e data de cadastro.
 
@@ -18,7 +22,7 @@ Apresenta a página inicial do sistema, com uma introdução ao Reading Journal.
 
 Exibe informações sobre o propósito do sistema e suas funcionalidades.
 
-### NavBar
+### SideBar
 
 Exibe a barra de navegação utilizando Link do React Router para facilitar a troca de páginas.
 
