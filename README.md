@@ -39,7 +39,6 @@ Permite adicionar um novo livro com título, autor, gênero e data de leitura.
 ### 1️⃣ Clone o repositório  
 ```sh
 git clone https://github.com/kapolegar/ReadingJournal.git
-cd ReadingJournal
 ```  
 
 ### 2️⃣ Instale as dependências  
