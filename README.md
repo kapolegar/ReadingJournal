@@ -1,72 +1,96 @@
-# Descrição
+Aqui está o `README.md` atualizado com as novas informações sobre o sistema e a execução dos testes:  
 
-O Reading Journal é uma aplicação simples desenvolvida em React para gerenciar sua lista de leituras. Com ele, é possível cadastrar livros, visualizar a lista de livros adicionados e excluir livros que não deseja mais manter no histórico.
+---
 
-Funcionalidades
+# 📖 Reading Journal  
 
-📖 Adicionar livros com título, autor, gênero e data de cadastro.
+O **Reading Journal** é uma aplicação web desenvolvida em **React** para ajudar a gerenciar sua lista de leituras. Com ele, é possível cadastrar livros, visualizar a lista de leituras, acompanhar registros e remover livros da lista.  
 
-📚 Listar os livros cadastrados.
+## 🚀 Funcionalidades  
 
-❌ Excluir livros da lista.
+✅ **Adicionar livros** com título, autor, gênero e data de leitura.  
+📚 **Listar os livros cadastrados** e visualizar detalhes.  
+🗑️ **Excluir livros** da lista.  
+🛠️ **Testes automatizados** para garantir a qualidade da aplicação.  
 
-# Componentes
+---
 
-Os componentes estão no diretório ./src/components e possuem as seguintes funcionalidades:
+## 📂 Estrutura do Projeto  
 
-### Home
+Os componentes estão organizados no diretório `./src/components` e possuem as seguintes funcionalidades:  
 
-Apresenta a página inicial do sistema, com uma introdução ao Reading Journal.
+### 🏠 Home  
+Apresenta a página inicial do sistema, com uma introdução ao **Reading Journal**.  
 
-### About
+### ℹ️ About  
+Exibe informações sobre o propósito do sistema e suas funcionalidades.  
 
-Exibe informações sobre o propósito do sistema e suas funcionalidades.
+### 🔗 NavBar  
+Barra de navegação utilizando **React Router**, permitindo alternar entre as páginas.  
 
-### NavBar
+### 📚 BookList  
+Lista os livros cadastrados e permite a exclusão de livros da lista.  
 
-Exibe a barra de navegação utilizando Link do React Router para facilitar a troca de páginas.
+### 📝 BookForm  
+Permite adicionar um novo livro com título, autor, gênero e data de leitura.  
 
-### BookList
+---
 
-Lista os livros cadastrados e permite excluir livros da lista.
+## ▶️ Como Executar o Projeto  
 
-### BookForm
-
-Permite adicionar um novo livro com título, autor, gênero e data de cadastro.
-
-
-# Como Executar o Projeto
-
-Clone o repositório:
-
-```
+### 1️⃣ Clone o repositório  
+```sh
 git clone https://github.com/kapolegar/ReadingJournal.git
-```
+cd ReadingJournal
+```  
 
-## Instale as dependências:
-
-```
+### 2️⃣ Instale as dependências  
+```sh
 npm install
-```
+```  
 
-## Execute a aplicação:
-
-```
+### 3️⃣ Execute a aplicação  
+```sh
 npm start
-```
+```  
 
-## Acesse no navegador:
-
+### 4️⃣ Acesse no navegador  
+```sh
 http://localhost:3000
+```  
 
-### Após execução do projeto, este é o resultado esperado no navegador:
+---
 
-![image](https://github.com/user-attachments/assets/16c6990a-d0ea-424c-a761-94d256c203e2)
+## ✅ Como Executar os Testes  
 
-## Uso
+O projeto contém **testes automatizados** usando **Jest** e **React Testing Library**. Para rodá-los, utilize o comando:  
 
-Navegue até a página Cadastrar para adicionar um novo livro.
+```sh
+npm test
+```  
 
-Acesse a Lista de Livros para visualizar os livros adicionados.
+### 🔎 Testes incluídos  
+- **BookList.test.js** → Verifica se a lista de livros é renderizada corretamente.  
+- **BookForm.test.js** → Testa se o formulário de cadastro de livros envia os dados corretamente.  
 
-Utilize o botão "Excluir" dentro da Lista de Livros para remover um livro da lista.
+---
+
+## 🖼️ Resultado Esperado  
+
+Após rodar o projeto, o sistema terá a seguinte aparência no navegador:  
+
+![image](https://github.com/user-attachments/assets/16c6990a-d0ea-424c-a761-94d256c203e2)  
+
+---
+
+## 💡 Como Usar  
+
+1️⃣ Navegue até a página **Cadastrar** para adicionar um novo livro.  
+2️⃣ Acesse a **Lista de Livros** para visualizar os livros cadastrados.  
+3️⃣ Utilize o botão **"Excluir"** para remover um livro da lista.  
+
+🔗 **Contribua com o projeto!** Qualquer feedback ou melhoria é bem-vindo. 🚀📚  
+
+---
+
+Se precisar de mais ajustes, é só avisar! 😊
