@@ -1,8 +1,4 @@
-# Descrição
-
-O Reading Journal é uma aplicação simples desenvolvida em React para gerenciar sua lista de leituras. Com ele, é possível cadastrar livros, visualizar a lista de livros adicionados e excluir livros que não deseja mais manter no histórico.
-
-Funcionalidades
+---
 
 📖 Adicionar livros com título, autor, gênero e data de cadastro.
 
@@ -41,7 +37,7 @@ Clone o repositório:
 
 ```
 git clone https://github.com/kapolegar/ReadingJournal.git
-```
+```  
 
 ## Instale as dependências:
 
@@ -58,10 +54,15 @@ npm start
 ## Acesse no navegador:
 
 http://localhost:3000
+```  
 
-### Após execução do projeto, este é o resultado esperado no navegador:
+---
 
-![image](https://github.com/user-attachments/assets/16c6990a-d0ea-424c-a761-94d256c203e2)
+## 🖼️ Resultado Esperado  
+
+Após rodar o projeto, o sistema terá a seguinte aparência no navegador:  
+
+![image](https://github.com/user-attachments/assets/4eac7849-b5f7-4802-aaf9-00f2920bb017)
 
 ## Uso
 
@@ -69,4 +70,18 @@ Navegue até a página Cadastrar para adicionar um novo livro.
 
 Acesse a Lista de Livros para visualizar os livros adicionados.
 
-Utilize o botão "Excluir" dentro da Lista de Livros para remover um livro da lista.
+
+### 🔎 Testes incluídos  
+- **BookList.test.js** → Verifica se a lista de livros é renderizada corretamente.  
+- **BookForm.test.js** → Testa se o formulário de cadastro de livros envia os dados corretamente.
+
+---
+
+## ✅ Como Executar os Testes  
+
+O projeto contém **testes automatizados** usando **Jest** e **React Testing Library**. Para rodá-los, utilize o comando:  
+
+```sh
+npm test
+```
+
