@@ -1,4 +1,4 @@
-Aqui está o `README.md` atualizado com as novas informações sobre o sistema e a execução dos testes:  
+![image](https://github.com/user-attachments/assets/f9b0c8c8-f18a-470a-845e-6755f767a323)Aqui está o `README.md` atualizado com as novas informações sobre o sistema e a execução dos testes:  
 
 ---
 
@@ -79,7 +79,7 @@ npm test
 
 Após rodar o projeto, o sistema terá a seguinte aparência no navegador:  
 
-![image](https://github.com/user-attachments/assets/16c6990a-d0ea-424c-a761-94d256c203e2)  
+![image](https://github.com/user-attachments/assets/4eac7849-b5f7-4802-aaf9-00f2920bb017)
 
 ---
 
