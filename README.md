@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/f9b0c8c8-f18a-470a-845e-6755f767a323)Aqui está o `README.md` atualizado com as novas informações sobre o sistema e a execução dos testes:  
-
 ---
 
 # 📖 Reading Journal  
