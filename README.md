@@ -53,10 +53,11 @@ npm start
 
 ## Acesse no navegador:
 
+```
 http://localhost:3000
 ```  
 
-
+---
 
 ## 🖼️ Resultado Esperado  
 
@@ -75,7 +76,7 @@ Acesse a Lista de Livros para visualizar os livros adicionados.
 - **BookList.test.js** → Verifica se a lista de livros é renderizada corretamente.  
 - **BookForm.test.js** → Testa se o formulário de cadastro de livros envia os dados corretamente.
 
-
+---
 
 ## ✅ Como Executar os Testes  
 
