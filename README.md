@@ -64,11 +64,7 @@ O projeto contém **testes automatizados** usando **Jest** e **React Testing Lib
 
 ```sh
 npm test
-```  
-
-### 🔎 Testes incluídos  
-- **BookList.test.js** → Verifica se a lista de livros é renderizada corretamente.  
-- **BookForm.test.js** → Testa se o formulário de cadastro de livros envia os dados corretamente.  
+```
 
 ---
 
@@ -86,8 +82,7 @@ Após rodar o projeto, o sistema terá a seguinte aparência no navegador:
 2️⃣ Acesse a **Lista de Livros** para visualizar os livros cadastrados.  
 3️⃣ Utilize o botão **"Excluir"** para remover um livro da lista.  
 
-🔗 **Contribua com o projeto!** Qualquer feedback ou melhoria é bem-vindo. 🚀📚  
 
----
-
-Se precisar de mais ajustes, é só avisar! 😊
+### 🔎 Testes incluídos  
+- **BookList.test.js** → Verifica se a lista de livros é renderizada corretamente.  
+- **BookForm.test.js** → Testa se o formulário de cadastro de livros envia os dados corretamente.  
