@@ -73,17 +73,3 @@ Navegue até a página Cadastrar para adicionar um novo livro.
 
 Acesse a Lista de Livros para visualizar os livros adicionados.
 
-
-### 🔎 Testes incluídos  
-- **BookList.test.js** → Verifica se a lista de livros é renderizada corretamente.  
-- **BookForm.test.js** → Testa se o formulário de cadastro de livros envia os dados corretamente.
-- 
-
-## ✅ Como Executar os Testes  
-
-O projeto contém **testes automatizados** usando **Jest** e **React Testing Library**. Para rodá-los, utilize o comando:  
-
-```sh
-npm test
-```
-
